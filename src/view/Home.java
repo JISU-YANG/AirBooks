@@ -6,8 +6,8 @@ import java.awt.GridLayout;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import model.BookDB;
-import model.UserDB;
+import db.BookDB;
+import db.UserDB;
 
 @SuppressWarnings("serial")
 public class Home extends JPanel {

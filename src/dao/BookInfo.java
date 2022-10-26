@@ -1,6 +1,6 @@
 package dao;
 
-import model.PathDB;
+import db.PathDB;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

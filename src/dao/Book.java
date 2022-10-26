@@ -11,9 +11,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import model.BookDB;
-import model.PathDB;
-import model.UserDB;
+import db.BookDB;
+import db.PathDB;
+import db.UserDB;
 public class Book {
 	public static void borrowBook(int wantBook) {
 		int flag = 0;

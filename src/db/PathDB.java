@@ -1,4 +1,4 @@
-package model;
+package db;
 
 public final class PathDB {
     private static String defaultPath = System.getProperty("user.home") + "/airbooks";

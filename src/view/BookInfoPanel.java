@@ -16,7 +16,7 @@ import javax.swing.border.EmptyBorder;
 
 import dao.Book;
 import dao.BookInfo;
-import model.PathDB;
+import db.PathDB;
 
 @SuppressWarnings("serial")
 public class BookInfoPanel extends JPanel{

@@ -1,6 +1,6 @@
 package view;
 
-import model.PathDB;
+import db.PathDB;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

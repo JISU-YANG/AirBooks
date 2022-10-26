@@ -8,7 +8,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.util.Scanner;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -22,8 +21,8 @@ import javax.swing.border.EmptyBorder;
 
 import dao.Book;
 import dao.User;
-import model.PathDB;
-import model.UserDB;
+import db.PathDB;
+import db.UserDB;
 
 @SuppressWarnings("serial")
 public class Login extends JFrame{

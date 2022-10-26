@@ -4,9 +4,9 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 
-import model.BookDB;
-import model.PathDB;
-import model.UserDB;
+import db.BookDB;
+import db.PathDB;
+import db.UserDB;
 
 public class User {
 	public static boolean login(String id, String pw) {

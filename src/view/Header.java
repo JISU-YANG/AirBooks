@@ -18,7 +18,7 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
 import dao.BookInfo;
-import model.PathDB;
+import db.PathDB;
 
 @SuppressWarnings("serial")
 public class Header extends JPanel {
