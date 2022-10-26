@@ -18,13 +18,8 @@ public class Home extends JPanel {
 
 		home.setBorder(new EmptyBorder(10, 20, 30, 20));
 		home.setBackground(new Color(0xF7F7F7));
-//		System.out.println(BookDB.getLoadBorBook().entrySet());
-		try {
-			System.out.println(BookDB.getLoadBorBook().get(UserDB.getLoadUserDB().get(UserDB.getNowUser()).get(0)).get(0));
-		} catch (Exception e) {}
 
 		// 사용자 책 정보 출력하기
-
 		for (int i = 0; i < 3; i++) {
 			try {
 				home.add(BookInfoPanel.loadBookInfo(BookDB.getLoadBorBook().get(UserDB.getLoadUserDB().get(UserDB.getNowUser()).get(i)).get(0), 2));

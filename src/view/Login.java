@@ -27,7 +27,6 @@ import model.UserDB;
 
 @SuppressWarnings("serial")
 public class Login extends JFrame{
-	BorderLayout border = new BorderLayout();
 	ImageIcon [] loginImage = {new ImageIcon(PathDB.getImagePath("loginImage01")),
 			new ImageIcon(PathDB.getImagePath("loginImage02")),
 			new ImageIcon(PathDB.getImagePath("loginImage03")),
@@ -37,13 +36,7 @@ public class Login extends JFrame{
 
 	String Id = null;
 	String Pw = null;
-	String check = null;
-	Scanner sc = new Scanner(System.in);
 	boolean ok1 = false;
-	boolean ok2 = false;
-	boolean ok3 = false;
-	boolean ok4 = false;
-	boolean ok5 = false;
 
 	JTextField id = new JTextField();
 	JPasswordField pw = new JPasswordField();
@@ -128,8 +121,6 @@ public class Login extends JFrame{
 					pw.setText("비밀번호입력");
 					pw.setForeground(Color.LIGHT_GRAY);
 				}
-//				System.out.println("패스워드" + pw.getPassword());
-//				System.out.println("텍스트" + pw.getText());
 			}
 			@SuppressWarnings("deprecation")
 			@Override
@@ -213,7 +204,4 @@ public class Login extends JFrame{
 		setVisible(true);
 	}
 
-	public static void main(String[] args) {
-		new Login();
-	}
 }
