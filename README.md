@@ -1,6 +1,7 @@
 ### AirBooks: 도서 관리 프로그램
+![](./doc/images/thumbnail-01.png)
 
-### 주의
+### Caution
 > airbooks 폴더에 유저, 책에 대한 데이터 파일이 포함되어 있습니다.
 > 사용자 폴더에 옮기셔야 정상적으로 작동합니다.
 
