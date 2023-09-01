@@ -1,6 +1,8 @@
 ### AirBooks: 도서 관리 프로그램
 ![](./doc/images/thumbnail-01.png)
 
+[프로젝트 회고록](https://jisulog.com/docs/essay/project-review/2019-airbooks)
+
 ## 개요
 스마트하게 도서관을 이용할 수 있게 도와주는 특별한 프로그램입니다.
 대여 가능한 도서인지, 혹은 다른 독자가 대여 중인지를 미리 확인하면서 방문 전에도 원하는 책을 빠르게 대여할 수 있습니다.
